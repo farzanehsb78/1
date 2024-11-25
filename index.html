@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="all col-lg-7 my-4 mx-auto rounded-5 bg-white ">
+        <div class="box col-12 py-3 px-4">
+            <div class="row">
+                <div class="form-box col-6 py-5 px-5">
+                    <div class="form">
+                        <h2 class="fw-bold mt-5">به روز بمانید! </h2>
+                        <br>
+                        <p>به بیش از 60،000 مدیر تولید بپیوندید و آپدیت های ماهانه را به روش های زیر دریافت کنید </p>
+
+                        <ul class="list">
+                            <li>
+                                <img src="images/icon-list.png" alt="">
+                                <p class="d-inline">
+                                    ارسال محصول و تولید آنچه مهم است
+                                </p>
+                            </li>
+                            <li>
+                                <img src="images/icon-list.png" alt="">
+                                <p class="d-inline">
+                                    حصول اطمینان از موفقیت آمیز بودن آپدیت ها
+                                </p>
+                            </li>
+                            <li>
+                                <img src="images/icon-list.png" alt="">
+                                <p class="d-inline">
+                                    و بسیاری موارد دیگر
+                                </p>
+                            </li>
+                        </ul>
+                        <form class="mt-5" action="" id="myForm">
+                            <label for="" class="fw-bold"> آدرس ایمیل: </label>
+                            <br>
+
+                            <input type="email" name="" id="email" placeholder="email@company.com"
+                                onfocus="checkInput(this.id)" onkeypress="checkInput(this.id)" class="mt-2 p-2 col-12">
+                            <div id="erremail"></div>
+                            <br>
+                            <button type="button" id="form-button" class="btn col-12 p-2" data-bs-toggle="modal"
+                                data-bs-target="#succeModal">اشتراک ماهانه</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="form-img col-6 ">
+                    <img src="images/illustration-sign-up-desktop.png" alt="" width="100%" height="100%">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="succeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                         -->
+                         <img src="images/icon-success (1).png" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <h1>از اینکه مشترک ما شدید، سپاسگذاریم!</h1>
+                        <p>ایمیل تأییدیه به ash@loremcompany.com ارسال شده. لطفا آن را باز کنید و با کلیک روی دگمه درون آن اشتراک خود را تأیید کنید. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">پیام را نادیده بگیرید</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/flow.js"></script>
+
+
+</body>
+
+</html>

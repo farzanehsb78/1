@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'IRANSans(FaNum)';
+    src: url('../fonts/IRANSansFaNum.eot');
+    src: url('../fonts/IRANSansFaNum.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IRANSansFaNum.woff2') format('woff2'),
+        url('../fonts/IRANSansFaNum.woff') format('woff'),
+        url('../fonts/IRANSansFaNum.ttf') format('truetype'),
+        url('../fonts/IRANSansFaNum.svg#IRANSansFaNum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+
+    box-sizing: border-box;
+}
+body {
+    font-family: 'IRANSans(FaNum)';
+    color:#36384d ;
+    background-color: #36384d;
+    direction: rtl;
+    
+}
+
+.btn{
+    background-color: #36384d;
+    color: #fff;
+
+}
+.list{
+    line-height: 30px;
+    list-style: none;
+    padding: 0;
+}
+.form button:hover{
+
+    background-color: #a2a2a2;
+    color: #36384d;
+}
+
+
+.modal-backdrop {
+     background-color: #36384d !important;
+     opacity: 1 !important;
+ }
